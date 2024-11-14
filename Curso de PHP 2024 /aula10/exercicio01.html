@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../aulaPHP/_css/estilo.css">
+</head>
+<body>
+    <div>
+        <form action="exercicio01.php" method="get">
+            Número: <input type="number" name="nnum" id="inum"/><br/>
+            <fieldset>
+                <legend>Operação</legend>
+                <input type="radio" name="oper" id="idobro" value="1" checked/> <label for="idobro">Dobro</label>
+                <input type="radio" name="oper" id="icubo" value="2"/> <label for="icubo">Cubo</label> 
+                <input type="radio" name="oper" id="iraiz" value="3"/> <label for="iraiz">Raiz Quadrada</label> 
+            </fieldset>
+            <input type="submit" value="Calcular" class="botao">
+        </form>
+    </div>
+</body>
+</html>
